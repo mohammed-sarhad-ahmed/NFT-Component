@@ -84,12 +84,12 @@ font-weight-600 {
 }
 .Cube {
   padding-bottom: 300px;
-  background-image: url(./images/image-equilibrium.jpg);
+  background-image: url(./image-equilibrium.jpg);
 }
 .Creator-Photo {
   width: 50px;
   height: 50px;
-  background-image: url(./images/image-avatar.png);
+  background-image: url(./image-avatar.png);
 }
 
 /* Active states */
@@ -99,7 +99,7 @@ font-weight-600 {
   cursor: pointer;
 }
 .Cube:active {
-  background: url(/images/icon-view.svg) center/50px no-repeat,
+  background: url(/icon-view.svg) center/50px no-repeat,
     linear-gradient(hsla(178, 100%, 50%, 0.5), hsla(178, 100%, 50%, 0.5)),
     url(/images/image-equilibrium.jpg) center/cover;
   cursor: pointer;
