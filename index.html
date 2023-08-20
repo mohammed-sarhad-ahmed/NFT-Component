@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="Flex Justify-Center Align-Center">
+    <main class="main">
+      <article class="NFT-container Flex Flex-direction-column">
+        <div
+          class="Cube width-90P margin-left-right-1rem margin-top-1rem background-cover background-center"
+        ></div>
+        <h2
+          class="font-weight-600 margin-left-right-1rem margin-top-1rem"
+          id="h2-text"
+        >
+          Equilibrium #3429
+        </h2>
+        <p
+          class="font-weight-300 Soft-blue margin-left-right-1rem margin-top-1rem"
+        >
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <section
+          class="ETH-Price-Time Flex Justify-between margin-left-right-1rem margin-top-1rem"
+        >
+          <div
+            aria-label="ETH Logo And Number"
+            class="ETH-Logo-number Flex gap-7px"
+          >
+            <img src="./images/icon-ethereum.svg" alt="ETH Logo" />
+            <p class="Cyan">0.041ETH</p>
+          </div>
+          <div aria-label="Time Left" class="Time-Left Flex gap-7px">
+            <img src="./images/icon-clock.svg" alt="A Clock Logo" />
+            <p class="Soft-blue">3 days left</p>
+          </div>
+        </section>
+        <div
+          class="width-90P margin-left-right-1rem margin-top-1rem border-bottom"
+        ></div>
+        <section
+          class="Creator-Info Flex gap-17px margin-left-right-1rem margin-top-1rem margin-bottom-1rem"
+        >
+          <div class="Creator-Photo background-cover"></div>
+          <p class="font-weight-300 Flex Align-Center">
+            <span class="Soft-blue"> Creation of </span>
+            <span id="Creator-Name">Jules Wyvern</span>
+          </p>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

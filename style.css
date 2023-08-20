@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  height: 100dvh;
+  color: white;
+}
+/* utlity classes */
+.Flex {
+  display: flex;
+}
+.Justify-Center {
+  justify-content: center;
+}
+.Align-Center {
+  align-items: center;
+}
+.Justify-between {
+  justify-content: space-between;
+}
+.Flex-direction-column {
+  flex-direction: column;
+}
+.gap-7px {
+  gap: 7px;
+}
+.gap-17px {
+  gap: 17px;
+}
+.width-90P {
+  width: 90%;
+}
+font-weight-600 {
+  font-weight: 600;
+}
+.Soft-blue {
+  color: hsl(215, 51%, 70%);
+}
+.Cyan {
+  color: hsl(178, 100%, 50%);
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+.margin-left-right-1rem {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.margin-top-1rem {
+  margin-top: 1rem;
+}
+
+.margin-bottom-1rem {
+  margin-bottom: 1rem;
+}
+
+.background-no-repeat {
+  background-repeat: no-repeat;
+}
+.background-center {
+  background-position: center;
+}
+.background-cover {
+  background-size: cover;
+}
+
+.background-clip-content-box {
+  background-clip: content-box;
+}
+.border-bottom {
+  border-bottom: 0.2px solid white;
+}
+
+/*  */
+.NFT-container {
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+}
+.Cube {
+  padding-bottom: 300px;
+  background-image: url(./images/image-equilibrium.jpg);
+}
+.Creator-Photo {
+  width: 50px;
+  height: 50px;
+  background-image: url(./images/image-avatar.png);
+}
+
+/* Active states */
+#h2-text:active,
+#Creator-Name:active {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.Cube:active {
+  background: url(/images/icon-view.svg) center/50px no-repeat,
+    linear-gradient(hsla(178, 100%, 50%, 0.5), hsla(178, 100%, 50%, 0.5)),
+    url(/images/image-equilibrium.jpg) center/cover;
+  cursor: pointer;
+}
