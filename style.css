@@ -99,8 +99,8 @@ font-weight-600 {
   cursor: pointer;
 }
 .Cube:active {
-  background: url(/icon-view.svg) center/50px no-repeat,
+  background: url(./icon-view.svg) center/50px no-repeat,
     linear-gradient(hsla(178, 100%, 50%, 0.5), hsla(178, 100%, 50%, 0.5)),
-    url(/image-equilibrium.jpg) center/cover;
+    url(./image-equilibrium.jpg) center/cover;
   cursor: pointer;
 }
