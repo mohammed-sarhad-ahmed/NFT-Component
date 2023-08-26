@@ -105,8 +105,3 @@ font-weight-600 {
   cursor: pointer;
 }
 
-@media (max-width: 350px) {
-  .main,.NFT-container {
-    width: 90%;
-  }
-}
