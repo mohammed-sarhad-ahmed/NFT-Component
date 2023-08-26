@@ -104,3 +104,9 @@ font-weight-600 {
     url(./image-equilibrium.jpg) center/cover;
   cursor: pointer;
 }
+
+@media (max-width: 350px) {
+  .main {
+    width: 90%;
+  }
+}
